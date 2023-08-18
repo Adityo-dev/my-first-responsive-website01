@@ -202,7 +202,7 @@ main {
 .Skills p {
     text-align: center;
     background-color: #b5eedb;
-    padding: 25px;
+    padding: 0.2em;
     width: 15rem;
     border-radius: 5rem;
     font-weight: 700;
@@ -347,7 +347,7 @@ main {
 
 .contact-description {
     background-color: #9E9FA5;
-    padding: 55px 10rem;
+    padding: 3em 10rem;
 
 }
 
@@ -517,9 +517,12 @@ input {
         gap: 0;
 
     }
-.contact-description{
-    padding: 2.5em;
-}
+
+    .contact-description {
+        padding: 2em;
+    }
+  
+
     .contact-title,
     .contact-description {
         text-align: center;
@@ -567,6 +570,7 @@ input {
         margin-bottom: 1em;
         align-items: center;
         margin-bottom: 2em;
+        flex-wrap: wrap;
     }
 
     .header {
@@ -577,6 +581,7 @@ input {
         padding: 2em;
     }
 
+    
 
     .koushik {
         display: none;
