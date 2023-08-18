@@ -1,0 +1,770 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+section {
+    margin-top: 150px;
+}
+
+:root {
+    --primary-color: #F1F0E8;
+    --secondary-color: #F8DE22;
+}
+
+header {
+    background-color: #0C356A;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+    align-items: center;
+
+}
+
+.koushik {
+    font-size: 45px;
+    color: var(--primary-color);
+}
+
+.dv {
+    color: var(--secondary-color);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+
+}
+
+nav ul li {
+    margin: 0 25px;
+    font-size: 25px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#home {
+    text-decoration: underline;
+}
+
+.click-me {
+
+    padding: 10px;
+    background-color: black;
+    border-radius: 8px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+
+.banner {
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.banner-sub-title {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: var(--primary-color);
+}
+
+.banner-title {
+    font-size: 55px;
+    color: var(--secondary-color);
+
+}
+
+.banner-sub-description {
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 25px;
+    color: var(--primary-color);
+}
+
+.banner-description {
+    font-size: 25px;
+    margin-top: 20px;
+    color: var(--primary-color);
+
+}
+
+.button {
+    margin-top: 25px;
+    background-color: #3F1D38;
+    text-align: center;
+    margin: 0 auto;
+    width: 20%;
+    margin-top: 25px;
+    padding: 15px 30px;
+    border-radius: 8px;
+
+}
+
+.button img {
+    width: 100%;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 1em;
+    color: var(--primary-color);
+}
+
+/* .............................................................................  */
+main {
+    max-width: 1500px;
+    margin: 150px auto;
+}
+
+
+.about {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 10px;
+    border-radius: 8px;
+    padding: 50px;
+}
+
+.about-img img {
+    width: 40em;
+}
+
+.about-title {
+    font-size: 50px;
+}
+
+.star {
+    display: flex;
+    color: gold;
+    gap: 1%;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.download-cv {
+    padding: 8px;
+    background-color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.about-description {
+    margin-top: 35px;
+    margin-bottom: 25px;
+
+}
+
+
+
+
+/* .................................................  */
+
+.Skill-title {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.Skills {
+    display: grid;
+    font-size: 45px;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.Skills p {
+    text-align: center;
+    background-color: #b5eedb;
+    padding: 25px;
+    width: 15rem;
+    border-radius: 5rem;
+    font-weight: 700;
+}
+
+/* ..................................SERVICE..........................  */
+.Service-title {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 1.2em;
+
+}
+
+.box-service-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    column-gap: 2em;
+
+}
+
+.box-service {
+    background-color: #35155D;
+    padding: 0 0 2.5em;
+    border-radius: 0.5em;
+
+}
+
+.Service-sub-title {
+    margin-top: 1em;
+    margin-left: 1em;
+    color: var(--primary-color);
+    font-size: 1.5em;
+}
+
+.box-service img {
+    width: 100%;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+
+/* .................................................................  */
+
+
+.grid-main-container {
+    background-color: #b5eedb;
+    padding: 2em 3em;
+    border-radius: 1em;
+}
+
+.grid-main-title {
+    text-align: center;
+}
+
+.Portfolio-title {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.Portfolio-sub-ititle {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.Portfolio-sub-ititle a {
+    text-decoration: none;
+    color: #4E4FEB;
+    font-size: 1.5em;
+}
+
+#all-de {
+    text-decoration: underline;
+}
+
+.Portfolio-sub-ititle a:hover {
+    text-decoration: underline;
+    color: black;
+
+
+
+}
+
+.grid-box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
+.grid-box-title {
+    background-color: var(--primary-color);
+    padding-bottom: 2em;
+    border-radius: 0.5rem;
+}
+
+.football-title {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+.web-view-title {
+    margin-left: 2em;
+}
+
+.web-view-title {
+    text-decoration: none;
+    background-color: black;
+    color: var(--primary-color);
+    width: 700;
+    font-size: 1em;
+    padding: 0.5em 2.5em;
+    border-radius: 0.5em;
+
+}
+
+.grid-box-title img{
+    width: 100%;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+
+/* .......................................................................  */
+.contact-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 7em;
+    background-color: #EEEEEE;
+    padding: 45px;
+    border-radius: 5px;
+}
+
+.contact-title {
+    font-size: 35px;
+    margin-bottom: 25px;
+
+}
+
+.contact-description {
+    background-color: #9E9FA5;
+    padding: 55px 10rem;
+
+}
+
+#location {
+    background-color: #056b68;
+}
+
+.input-title input[type="text"],
+[type="email"],
+textarea {
+    margin-bottom: 35px;
+    width: 100%;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 4px;
+}
+
+.input-title {
+    margin-top: 4em;
+}
+
+.input-title textarea {
+    height: 6em;
+}
+
+.Massage-button {
+    background-color: #056b68;
+    padding: 1.5em;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 8px;
+
+}
+
+.Massage-button a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
+
+
+}
+
+input {
+    height: 2em;
+}
+
+
+
+
+
+
+/* ..................................footer ............................  */
+.footer-container {
+    text-align: center;
+    background-color: #252B48;
+    padding: 6rem 30rem;
+    color: var(--primary-color);
+
+}
+
+.footer-title {
+    font-size: 4em;
+    font-weight: 700;
+    border-bottom: 2px solid var(--primary-color);
+    margin-bottom: 1em;
+}
+
+.footer-description {
+
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+
+/* ................................ @media screen ...................  */
+
+
+
+
+@media screen and (max-width:576px) {
+
+    /* About us  */
+    .about {
+        flex-direction: column;
+        box-shadow: 1px 1px 2px;
+        background-color: white;
+    }
+
+    .about-img img {
+        width: 20em;
+    }
+
+    /* Technical Skills  */
+    .Skill-title {
+        text-align: center;
+    }
+
+    .Skills {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1em;
+
+    }
+
+    .Skills p {
+        margin: 0 auto;
+    }
+
+    /* Service   */
+    .box-service-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1em;
+        row-gap: 1em;
+    }
+
+    /* Portfolio */
+    .Portfolio-sub-ititle {
+        flex-direction: column;
+    }
+
+    .grid-box-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Contact Us */
+    .contact-container {
+        flex-direction: column;
+        gap: 0;
+
+    }
+
+    .contact-title,
+    .contact-description {
+        text-align: center;
+    }
+
+    .input-title {
+        text-align: center;
+        margin-right: 2.5em;
+        width: 50%;
+    }
+
+    .Massage-button {
+        width: 100%;
+    }
+
+    /* footer  */
+    .footer-container {
+        padding: 0.5em;
+    }
+
+    .footer-title {
+        font-size: 2em;
+    }
+
+    /* .button {
+
+    } */
+
+
+    /* .footer-description {} */
+
+    .Copyright-footer {
+        color: #ca0d0d;
+    }
+
+
+
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    /* About us  */
+    .about {
+        flex-direction: column;
+        box-shadow: 1px 1px 2px;
+        background-color: white;
+    }
+
+    .about-img img {
+        width: 30em;
+    }
+
+    /* Technical Skills  */
+    .Skill-title {
+        text-align: center;
+    }
+
+    .Skills {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1em;
+
+    }
+
+    .Skills p {
+        margin: 0 auto;
+    }
+
+    /* Service   */
+    .box-service-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1em;
+        row-gap: 1em;
+    }
+    .Service-sub-title {
+        font-size: 2em;
+    }
+
+    /* Portfolio */
+    .Portfolio-sub-ititle {
+        flex-direction: column;
+    }
+
+    .grid-box-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Contact Us */
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-title,
+    .contact-description {
+        text-align: center;
+    }
+
+    .input-title {
+        text-align: center;
+        margin-right: 2.5em;
+        width: 50%;
+    }
+
+    .Massage-button {
+        width: 100%;
+    }
+
+    /* footer  */
+    .footer-container {
+        padding: 0.8em;
+    }
+
+    .footer-title {
+        font-size: 3.5em;
+    }
+
+    /* .button {
+
+    } */
+
+
+    /* .footer-description {} */
+
+    .Copyright-footer {
+        color: #962121;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    /* About us  */
+    .about {
+        flex-direction: column;
+        box-shadow: 1px 1px 2px;
+        background-color: white;
+    }
+
+    .about-img img {
+        width: 37em;
+    }
+
+    /* Technical Skills  */
+    .Skill-title {
+        text-align: center;
+    }
+
+    .Skills {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1em;
+
+    }
+
+    .Skills p {
+        margin: 0 auto;
+    }
+
+    /* Service   */
+    .box-service-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1em;
+        row-gap: 1em;
+    }
+
+    /* Portfolio */
+    .grid-box-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Contact Us */
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-title,
+    .contact-description {
+        text-align: center;
+    }
+
+    .input-title {
+        text-align: center;
+        margin-right: 2.5em;
+        width: 50%;
+    }
+
+    .Massage-button {
+        width: 100%;
+    }
+
+    /* footer  */
+    .footer-container {
+        padding: 1em;
+    }
+
+   
+
+    .button {
+        font-size: 1em;
+        margin-bottom: 2em;
+    }
+
+    
+
+    .Copyright-footer {
+        color: #af1a1a;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+
+    /* About us  */
+    .about {
+        flex-direction: column;
+        box-shadow: 1px 1px 2px;
+        background-color: white;
+    }
+
+    .about-img img {
+        width: 40em;
+    }
+
+    /* Technical Skills  */
+    .Skill-title {
+        text-align: center;
+    }
+
+    .Skills {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1em;
+
+
+    }
+
+    .Skills p {
+        margin: 0 auto;
+    }
+
+    /* Service   */
+    .box-service-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1em;
+        row-gap: 1em;
+    }
+
+    .Service-sub-title {
+        font-size: 2em;
+    }
+
+    /* Portfolio */
+    .grid-box-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Contact Us */
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-title,
+    .contact-description {
+        text-align: center;
+    }
+
+    .input-title {
+        text-align: center;
+        margin-right: 2.5em;
+        width: 50%;
+    }
+
+    .Massage-button {
+        width: 100%;
+    }
+
+    /* footer  */
+    .footer-container {
+        padding: 1em;
+    }
+
+    
+
+    .button {
+        font-size: 1em;
+        margin-bottom: 2em;
+    }
+
+   
+
+    .Copyright-footer {
+        color: #962121;
+    }
+}
