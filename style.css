@@ -82,7 +82,7 @@ nav ul li a:hover {
     margin: 0 200px;
     align-items: center;
     text-align: center;
-   
+
 }
 
 .banner-sub-title {
@@ -322,7 +322,7 @@ main {
 
 }
 
-.grid-box-title img{
+.grid-box-title img {
     width: 100%;
     border-radius: 0.5em 0.5em 0 0;
 }
@@ -503,9 +503,9 @@ input {
         font-size: 2em;
     }
 
-    /* .button {
-
-    } */
+    .button a {
+        font-size: 0.8em;
+    }
 
 
     /* .footer-description {} */
@@ -552,6 +552,7 @@ input {
         padding: 1em;
         row-gap: 1em;
     }
+
     .Service-sub-title {
         font-size: 2em;
     }
@@ -671,14 +672,14 @@ input {
         padding: 1em;
     }
 
-   
+
 
     .button {
         font-size: 1em;
         margin-bottom: 2em;
     }
 
-    
+
 
     .Copyright-footer {
         color: #af1a1a;
@@ -755,14 +756,14 @@ input {
         padding: 1em;
     }
 
-    
+
 
     .button {
         font-size: 1em;
         margin-bottom: 2em;
     }
 
-   
+
 
     .Copyright-footer {
         color: #962121;
