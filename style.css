@@ -517,7 +517,9 @@ input {
         gap: 0;
 
     }
-
+.contact-description{
+    padding: 2.5em;
+}
     .contact-title,
     .contact-description {
         text-align: center;
